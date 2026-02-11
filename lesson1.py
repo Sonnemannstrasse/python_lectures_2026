@@ -60,16 +60,16 @@ print(a)
 a = np.array([(i, i + 5) for i in [1, 2, 3]])
 print(a)
 
-print(np.zeros(10), dtype=int)
+print(np.zeros(10, dtype=int))
 
-print(np.ones((3, 5)), dtype=float)
+print(np.ones((3, 5), dtype=float))
 
 print(np.full((3, 3), 3.1416))
 
 print(np.arange(0, 20, 2))
 print(np.arange(0, 20, 3))
 
-print(np.linespace(0, 2, 11))
+print(np.linspace(0, 2, 11))
 
 print(np.random.random((2, 4)))
 
@@ -104,11 +104,11 @@ print(x1)
 print(x1.ndim, x1.shape, x1.size)
 # 1 (3,) 3
 
-x2 = np.randon.randint(10, size=(3, 2))
+x2 = np.random.randint(10, size=(3, 2))
 print(x2)
 print(x2.ndim, x2.shape, x2.size)
 
-x3 = np.randon.randint(10, size=(3, 2))
+x3 = np.random.randint(10, size=(3, 2))
 print(x3)
 print(x3.ndim, x3.shape, x3.size)
 
