@@ -164,7 +164,7 @@ print(x < 6)
 # Сколько элементов имеют значени меньше 6
 
 print(np.count_nonzero(x < 6))
-print(np.su,(x < 6))
+print(np.sum(x < 6))
 
 print(np.sum(x < 6, axis=0))
 print(np.sum(x < 6, axis=1))
@@ -180,7 +180,7 @@ print(np.sum(x < 6, axis=1))
 
 # Наложение маски
 print(x < 5)
-print(x[x , 5])
+print(x[x < 5])
 print(a)
 print(a.shape)
 
@@ -221,7 +221,7 @@ print(a)
 ind = [3, 5, 0]
 print(a[ind])
 
-ind[[3,5],[0,3]]
+ind = [[3,5],[0,3]]
 print(a[ind])
 
 
